@@ -1,0 +1,29 @@
+{
+  "units": {
+    "goblin": {
+      "health": 10,
+      "moveSpeed": 2.5,
+      "weaponRange": 2.5,
+      "weaponDamage": 0.5,
+      "weaponCooldown": 0.25
+    },
+    "archer": {
+      "health": 10,
+      "moveSpeed": 1.5,
+      "weaponRange": 5,
+      "weaponDamage": 2,
+      "weaponCooldown": 0.5
+    }
+  },
+  "teams": {
+    "team1": [
+      { "name": "archer", "x": 2.5, "y": 5 },
+      { "name": "goblin", "x": -5, "y": 10 },
+      { "name": "goblin", "x": 0, "y": 10 }
+    ],
+    "team2": [
+      { "name": "archer", "x": -2.5, "y": 5 },
+      { "name": "archer", "x": 0, "y": 0 }
+    ]
+  }
+}

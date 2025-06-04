@@ -1,0 +1,58 @@
+{
+  "units": {
+    "goblin": {
+      "health": 12,
+      "moveSpeed": 3.0,
+      "weaponRange": 1.5,
+      "weaponDamage": 0.7,
+      "weaponCooldown": 0.3
+    },
+    "archer": {
+      "health": 10,
+      "moveSpeed": 2.0,
+      "weaponRange": 6.0,
+      "weaponDamage": 2.0,
+      "weaponCooldown": 0.5
+    },
+    "knight": {
+      "health": 20,
+      "moveSpeed": 1.2,
+      "weaponRange": 1.0,
+      "weaponDamage": 3.5,
+      "weaponCooldown": 0.8
+    },
+    "mage": {
+      "health": 8,
+      "moveSpeed": 1.8,
+      "weaponRange": 5.0,
+      "weaponDamage": 3.0,
+      "weaponCooldown": 1.0
+    }
+  },
+  "teams": {
+    "team1": [
+      { "name": "knight", "x": -10, "y": 15 },
+      { "name": "knight", "x": -12, "y": 17 },
+      { "name": "archer", "x": -8, "y": 14 },
+      { "name": "goblin", "x": -9, "y": 18 },
+      { "name": "goblin", "x": -7, "y": 16 },
+      { "name": "mage", "x": -11, "y": 13 }
+    ],
+    "team2": [
+      { "name": "archer", "x":  12, "y": -14 },
+      { "name": "archer", "x":  10, "y": -15 },
+      { "name": "goblin", "x":  11, "y": -12 },
+      { "name": "goblin", "x":  13, "y": -13 },
+      { "name": "mage",   "x":  14, "y": -16 },
+      { "name": "knight", "x":   9, "y": -11 }
+    ],
+    "team3": [
+      { "name": "mage",   "x":   0, "y": 20 },
+      { "name": "archer", "x":  -2, "y": 22 },
+      { "name": "goblin", "x":   2, "y": 18 },
+      { "name": "knight", "x":   0, "y": 17 },
+      { "name": "goblin", "x":   1, "y": 21 }
+    ]
+  }
+}
+  
